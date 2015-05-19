@@ -5,7 +5,7 @@
     "release": "v0.4.1",
     "versionFile": "bower.json"
   },
-  "hook": {
+  "_hook": {
     "repoFullName": "adobe-webplatform/Snap.svg"
   }
 }
