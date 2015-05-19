@@ -8,9 +8,11 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.addFiles([
+    'meteor-pre.js',
     'upstream/dist/snap.svg.js',
+    'meteor-post.js'
   ], 'client');
-  // api.export('jsPDF');
+  api.export('Snap');
 });
 
 Package.on_test(function(api) {
