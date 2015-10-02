@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'snapsvg',
+  name: 'snapsvg:core',
   summary: 'Snap.svg (official): The JavaScript library for modern SVG graphics.',
   version: '0.4.0',
   git: 'https://github.com/MeteorPackaging/snapsvg-wrapper.git'
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 });
 
 Package.on_test(function(api) {
-  api.use('snapsvg');
+  api.use('snapsvg:core');
 
   api.use([
     'tinytest',
